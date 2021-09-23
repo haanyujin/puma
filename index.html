@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PUMA</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <script src="script/lib/jquery.3.6.0.js"></script>
+  <script src="script/lib/jquery-ui.min.js"></script>
+  <script src="script/lib/jquery-transform2d.js"></script>
+  <script src="script/custom.js"></script>
+</head>
+<body>
+  <div id="container">
+    <!-- header -->
+    <header class="">
+      <h1 class="logo"><a href="#none"></a></h1>
+      <!-- gnb -->
+      <ul class="gnb">
+        <li>
+          <a href="#none">women</a>
+          <div class="subWrap_w subWrap">
+            <div class="sub">
+              <div class="sub_l"><a href="#none"><img src="images/sub_women.jpg" alt=""></a></div>
+              <ul class="sub_r">
+                <li>
+                  <a href="#none">Shoes</a>
+                  <ul class="subList">
+                    <li><a href="#none">샌들 & 슬리퍼</a></li>
+                    <li><a href="#none">라이프스타일</a></li>
+                    <li><a href="#none">러닝</a></li>
+                    <li><a href="#none">트레이닝</a></li>
+                    <li><a href="#none">골프</a></li>
+                    <li><a href="#none">모터스포츠</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#none">Clothing</a>
+                  <ul class="subList">
+                    <li><a href="#none">탑 & 티셔츠</a></li>
+                    <li><a href="#none">스포츠 브라</a></li>
+                    <li><a href="#none">크루넷 & 후드티</a></li>
+                    <li><a href="#none">숏 팬츠</a></li>
+                    <li><a href="#none">자켓</a></li>
+                    <li><a href="#none">팬츠</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#none">Accesssories</a>
+                  <ul class="subList">
+                    <li><a href="#none">가방</a></li>
+                    <li><a href="#none">모자 & 헤드웨어</a></li>
+                    <li><a href="#none">글러브</a></li>
+                    <li><a href="#none">기타</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#none">Sports</a>
+                  <ul class="subList">
+                    <li><a href="#none">축구</a></li>
+                    <li><a href="#none">러닝</a></li>
+                    <li><a href="#none">트레이닝 & 짐</a></li>
+                    <li><a href="#none">골프</a></li>
+                    <li><a href="#none">모터스포츠</a></li>
+                    <li><a href="#none">농구</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        </li>
+        <li>
+          <a href="#none">men</a>
+          <div class="subWrap_m subWrap">
+            <div class="sub">
+              <div class="sub_l"><a href="#none"><img src="images/sub_men.jpg" alt=""></a></div>
+              <ul class="sub_r">
+                <li>
+                  <a href="#none">Shoes</a>
+                  <ul class="subList">
+                    <li><a href="#none">라이프스타일</a></li>
+                    <li><a href="#none">러닝/트레이닝</a></li>
+                    <li><a href="#none">샌들 & 슬리퍼</a></li>
+                    <li><a href="#none">모터스포츠</a></li>
+                    <li><a href="#none">골프</a></li>
+                    <li><a href="#none">농구</a></li>
+                    <li><a href="#none">축구</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#none">Clothing</a>
+                  <ul class="subList">
+                    <li><a href="#none">탑 & 티셔츠</a></li>
+                    <li><a href="#none">숏 팬츠</a></li>
+                    <li><a href="#none">후드티 & 크루</a></li>
+                    <li><a href="#none">팬츠</a></li>
+                    <li><a href="#none">자켓</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#none">Accesssories</a>
+                  <ul class="subList">
+                    <li><a href="#none">가방</a></li>
+                    <li><a href="#none">모자 & 헤드웨어</a></li>
+                    <li><a href="#none">글러브</a></li>
+                    <li><a href="#none">양말</a></li>
+                    <li><a href="#none">기타</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#none">Sports</a>
+                  <ul class="subList">
+                    <li><a href="#none">축구</a></li>
+                    <li><a href="#none">러닝</a></li>
+                    <li><a href="#none">트레이닝 & 짐</a></li>
+                    <li><a href="#none">골프</a></li>
+                    <li><a href="#none">모터스포츠</a></li>
+                    <li><a href="#none">농구</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        </li>
+        <li>
+          <a href="#none">kids</a>
+          <div class="subWrap_k subWrap">
+            <div class="sub">
+              <div class="sub_l"><a href="#none"><img src="images/sub_kids.jpg" alt=""></a></div>
+              <ul class="sub_r">
+                <li>
+                  <a href="#none">Boys</a>
+                  <ul class="subList">
+                    <li><a href="#none"></a></li>
+                    <li><a href="#none">신발</a></li>
+                    <li><a href="#none">의류</a></li>
+                    <li><a href="#none">용품</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#none">Girls</a>
+                  <ul class="subList">
+                    <li><a href="#none"></a></li>
+                    <li><a href="#none">신발</a></li>
+                    <li><a href="#none">의류</a></li>
+                    <li><a href="#none">용품</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        </li>
+        <li>
+          <a href="#none">collection</a>
+          <div class="subWrap_c subWrap">
+            <div class="sub">
+              <ul class="sub_r">
+                <li>
+                  <a href="#none">파트너쉽</a>
+                  <ul class="subList">
+                    <li><a href="#none">하리보</a></li>
+                    <li><a href="#none">루이지</a></li>
+                    <li><a href="#none">메종키츠네</a></li>
+                    <li><a href="#none">피너츠</a></li>
+                    <li><a href="#none">슈퍼마리오</a></li>
+                    <li><a href="#none">필리페 판토네</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#none">라이프스타일</a>
+                  <ul class="subList">
+                    <li><a href="#none">Dassler Lagacy</a></li>
+                    <li><a href="#none">GEN.G</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#none">축구</a>
+                  <ul class="subList">
+                    <li><a href="#none">Future & Ultra</a></li>
+                    <li><a href="#none">Neymar Jr</a></li>
+                    <li><a href="#none">맨체스터 시티</a></li>
+                    <li><a href="#none">AC 밀란</a></li>
+                    <li><a href="#none">BVB</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#none">모터스포츠</a>
+                  <ul class="subList">
+                    <li><a href="#none">포르쉐 레거시</a></li>
+                    <li><a href="#none">페라리</a></li>
+                    <li><a href="#none">BMW</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#none">러닝 & 트레이닝</a>
+                  <ul class="subList">
+                    <li><a href="#none">Exhale</a></li>
+                    <li><a href="#none">First Mile</a></li>
+                    <li><a href="#none">Nitro</a></li>
+                  </ul>
+                </li>
+              </ul>
+
+            </div>
+          </div>
+
+        </li>
+        <li>
+          <a href="#none">sale</a>
+          <div class="subWrap_s subWrap">
+            <div class="sub">
+              <ul class="sub_r">
+                <li>
+                  <a href="#none">Women</a>
+                  <ul class="subList">
+                    <li><a href="#none">신발</a></li>
+                    <li><a href="#none">의류</a></li>
+                    <li><a href="#none">용품</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#none">Men</a>
+                  <ul class="subList">
+                    <li><a href="#none">신발</a></li>
+                    <li><a href="#none">의류</a></li>
+                    <li><a href="#none">용품</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#none">Kids</a>
+                  <ul class="subList">
+                    <li><a href="#none">신발</a></li>
+                    <li><a href="#none">의류</a></li>
+                    <li><a href="#none">용품</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>  
+          </div>
+        </li><!--e:sale-->
+      </ul> <!--e:gnb-->
+      <!-- sub_bg -->
+      <div class="sub_bg">
+        <div class="search_box">
+          <input type="search" placeholder="Search">
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </div>
+      </div>
+      <div class="utile">
+        <div>
+          <input type="search" placeholder="Search"><a href="#none"><img src="images/search_white_24dp.svg" alt=""></a>
+        </div>
+        <div><a href="#none"></a></div>
+        <div><a href="#none"></a></div>
+        <div>
+          <a href="#none" class="menuBtn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </a>
+        </div>
+      </div>
+    </header>
+    <!-- main -->
+    <div class="main">
+      <div class="slides">
+        <a href="#none" class="active"><img src="images/main1-5.jpg" alt=""><img src="images/mainS1-1" alt=""></a>
+        <a href="#none"><img src="images/main2-4.jpg" alt=""><img src="images/mainS2-1" alt=""></a>
+        <a href="#none"><img src="images/main3-3.jpg" alt=""><img src="images/mainS3-1" alt=""></a>
+      </div>
+    </div>
+
+    <!-- sec1 -->
+    <section id=sec1 class="section1 inner">
+      <article class="futureZ ">
+        <div class="imgWrap"><img src="images/futurez2.png" alt=""><img src="images/futurez.jpg" alt=""></div>
+        <div class="newTxtwrap">
+          <span>FUTURE Z</span>
+          <span>
+            <a href="#none"><i class="fas fa-info-circle"></i></a>
+            <a href="#none"><i class="far fa-heart"></i></a>
+            <a href="#none"><i class="fas fa-shopping-cart"></i></a>
+          </span>
+        </div>
+        <div class="txtWrap">
+          <h2><img src="images/puturez_logo_b-1.png" alt=""></h2>
+          <a href="#none">상품 바로가기</a>
+        </div>
+      </article>
+
+      <article class="ultra ">
+        <div class="txtWrap">
+          <h2><img src="images/ultra_logo_b-1.png" alt=""></h2>
+          <a href="#none">상품 바로가기</a>
+        </div>
+        <div class="imgWrap"><img src="images/ultra2.png" alt=""><img src="images/ultra.jpg" alt=""></div>
+        <div class="newTxtwrap">
+          <span>ULTRA</span>
+          <span>
+            <a href="#none"><i class="fas fa-info-circle"></i></a>
+            <a href="#none"><i class="far fa-heart"></i></a>
+            <a href="#none"><i class="fas fa-shopping-cart"></i></a>
+          </span>
+        </div>
+      </article>
+    </section>
+
+    <!-- banner -->
+    <div class="quick_banner inner">
+      <div class="bannerWrap">
+        <div class="banner">
+          <img src="images/quick_banner1.jpg" alt="">
+          <div class="QB_txtWrap">
+            <h2>PLAY UNITED<br>PACK</h2>
+            <p>GO FOR THE GOLD</p>
+            <a href="#none">상품 바로가기</a>
+          </div>
+        </div>
+        <div class="banner banner2">
+          <img src="images/quick_banner3.png" alt="">
+          <div class="QB_txtWrap">
+            <img src="images/haribo_logo.png" alt="">
+            <h2>TREAT YOUR SELF</h2>
+            <p>PUMA x HARIBO</p>
+            <a href="#none">상품 바로가기</a>
+          </div>
+        </div>
+        <div class="banner banner3">
+          <img src="images/quick_banner2.png" alt="">
+          <div class="QB_txtWrap">
+            <h2>FIRST DAY<br>BACK</h2>
+            <p>BACK TO SCHOOL</p>
+            <a href="#none">EXPLORE NOW</a>
+          </div>
+        </div>
+      </div><!--e:bannerWrap-->
+
+      <!-- arrowWrap -->
+      <div class="arrowWrap">
+        <a href="#none" class="prev"><i class="fas fa-arrow-circle-left"></i></a>
+        <a href="#none" class="next"><i class="fas fa-arrow-circle-right"></i></a>
+      </div>
+      <!-- indicator -->
+      <div class="indicator">
+      </div>
+      
+    </div>
+    <!-- sec2 -->
+    <section id="sec2" class="inner">
+      <h2>STYLING</h2>
+      <div class="tab_wrap">
+        <div class="tap_btn">
+          <div class="tabs">
+            <a href="#none" data-id="women" class="tab_link on">WOMEN</a>
+            <a href="#none" data-id="men" class="tab_link" >MEN</a>
+            <a href="#none" data-id="kids" class="tab_link" >KIDS</a>
+          </div>
+          <div class="more on"><a href="#none">+</a></div>
+        </div>
+        
+        <div id="women" class="tab_conts on">
+          <div class="cont box1">
+            <div class="IMG">
+              <div class="img_wrap">
+                <img src="images/Cruise-Rider-GL-Wn_s.jpg" alt="">
+              </div>
+              <div class="img_wrap2">
+                <img src="images/Cruise-Rider-GL-Wn_s2.jpg" alt="">
+              </div>
+            </div>
+
+            <div class="txt_wrap">
+              <h3>크루즈 라이더 GL</h3>
+              <!-- <p>여성/Wn's</p> -->
+              <p>119,000 원</p>
+            </div>
+          </div>
+          <div class="cont box2">
+            <div class="IMG">
+              <div class="img_wrap"><img src="images/Gloaming-AOP-Full-Zip-Jacket.jpg" alt=""></div>
+              <div class="img_wrap2">
+                <img src="images/Gloaming-AOP-Full-Zip-Jacket2.jpg" alt="">
+              </div>
+            </div>
+
+            <div class="txt_wrap">
+              <h3>글로밍AOP 풀 집 자켓</h3>
+              <!-- <p>여성</p> -->
+              <p>99,000 원</p>
+            </div>
+          </div>
+          <div class="cont box3">
+            <div class="IMG">
+              <div class="img_wrap"><img src="images/Gloaming-AOP-Short-Tight.jpg" alt=""></div>
+              <div class="img_wrap2">
+                <img src="images/Gloaming-AOP-Short-Tight2.jpg" alt="">
+              </div>
+            </div>
+            <div class="txt_wrap">
+              <h3>글로밍 AOP 쇼트 타이즈</h3>
+              <!-- <p>여성</p> -->
+              <p>59,000 원</p>
+            </div>
+          </div><!--e:tab_conts>cont3-->
+        </div>
+
+        <div id="men" class="tab_conts">
+          <div class="cont box1">
+            <div class="IMG">
+              <div class="img_wrap"><img src="images/CLSX-Tee.jpg" alt=""></div>
+              <div class="img_wrap2">
+                <img src="images/CLSX-Tee2.jpg" alt="">
+              </div>
+            </div>
+            <div class="txt_wrap">
+              <h3>CLSX 티</h3>
+              <!-- <p>남성</p> -->
+              <p>39,000 원</p>
+            </div>
+          </div>
+          <div class="cont box2">
+            <div class="IMG">
+              <div class="img_wrap"><img src="images/CLSX-Piped-Hoodie-TR.jpg" alt=""></div>
+              <div class="img_wrap2">
+                <img src="images/CLSX-Piped-Hoodie-TR2.jpg" alt="">
+              </div>
+            </div>
+            <div class="txt_wrap">
+              <h3>CLSX 파이프트 후디 TR</h3>
+              <!-- <p>남성</p> -->
+              <p>99,000 원</p>
+            </div>
+          </div>
+          <div class="cont box3">
+            <div class="IMG">
+              <div class="img_wrap"><img src="images/CLSX-Shorts-TR.jpg" alt=""></div>
+              <div class="img_wrap2">
+                <img src="images/CLSX-Shorts-TR2.jpg" alt="">
+              </div>
+            </div>
+            <div class="txt_wrap">
+              <h3>CLSX 쇼츠 반바지 TR</h3>
+              <!-- <p>남성</p> -->
+              <p>59,000 원</p>
+            </div>
+          </div><!--e:tab_conts>cont3-->
+        </div>
+
+        <div id="kids" class="tab_conts">
+          <div class="cont box1">
+            <div class="IMG">
+              <div class="img_wrap"><img src="images/kids_shoes1.jpg" alt=""></div>
+              <div class="img_wrap2">
+                <img src="images/kids_shoes1-1.jpg" alt="">
+              </div>
+            </div>
+            <div class="txt_wrap">
+              <h3>Black Fives Suede Classic Sneakers JR</h3>
+              <!-- <p>리틀 키즈 스니커즈</p> -->
+              <p>99,000 원</p>
+            </div>
+          </div>
+          <div class="cont box2">
+            <div class="IMG">
+              <div class="img_wrap"><img src="images/kids_shoes2.jpg" alt=""></div>
+              <div class="img_wrap2">
+                <img src="images/kids_shoes2-1.jpg" alt="">
+              </div>
+            </div>
+            <div class="txt_wrap">
+              <h3>Suede Classic XXI</h3>
+              <!-- <p>리틀 키즈 스니커즈</p> -->
+              <p>79,000 원</p>
+            </div>
+          </div>
+          <div class="cont box3">
+            <div class="IMG">
+              <div class="img_wrap"><img src="images/kids_shoes3.jpg" alt=""></div>
+              <div class="img_wrap2">
+                <img src="images/kids_shoes3-1.jpg" alt="">
+              </div>
+            </div>
+            <div class="txt_wrap">
+              <h3>Cali Sport Roar</h3>
+              <!-- <p>리틀 키즈 스니커즈</p> -->
+              <p>89,000 원</p>
+            </div>
+          </div><!--e:tab_conts>cont3-->
+        </div>
+      </div>
+    </section><!--e:sec2-->
+    <!-- sec3 -->
+    <section id="sec3" class="inner">
+      <h2>COLLABORATIONS</h2>
+      <div class="items">
+        <article class="item_l">
+          <div class="C_txtWrap">
+            <h3>PUMA x HARIBO</h3>
+            <a href="#none">Shop</a>
+          </div>
+          <div class="blackscreen"></div>
+        </article>
+
+        <article class="item_r">
+          <div class="item_r1">
+            <div class="C_txtWrap">
+              <h3>PUMA x RHUIGI</h3>
+              <a href="#none">Shop</a>
+            </div>
+            <div class="blackscreen"></div>
+          </div>
+          <div class="item_r2">
+            <div class="C_txtWrap">
+              <h3>PUMA x PEANUTS</h3>
+              <a href="#none">Shop</a>
+            </div>
+            <div class="blackscreen"></div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+    <!-- sec4 -->
+    <section id="sec4">
+      <video controls poster="images/videoposter1.png">
+        <source src="video/puma_video1.mp4" type="video/mp4">
+      </video>
+      <div class="player_wrap inner">
+        <div class="player">
+          <div class="player_img">
+            <img src="images/usain.png" alt="">
+          </div>
+          <div class="player_txt">
+            <h3>USAIN BOLT</h3>
+            <a href="#none">SHOP RUNNING</a>
+          </div>
+        </div>
+
+        <div class="player">
+          <div class="player_img">
+            <img src="images/lewis.png" alt="">
+
+          </div>
+          <div class="player_txt">
+            <h3>LEWIS HAMILTON</h3>
+            <a href="#none">SHOP TRAINING</a>
+          </div>
+        </div>
+
+        <div class="player">
+          <div class="player_img">
+            <img src="images/kyle.png" alt="">
+          </div>
+          <div class="player_txt">
+            <h3>KYLE KUZMA</h3>
+            <a href="#none">SHOP BASKETBALL</a>
+          </div>
+        </div>
+
+        <div class="player">
+          <div class="player_img">
+            <img src="images/neymar.png" alt="">
+          </div>
+          <div class="player_txt">
+            <h3>NEYMAR JR.</h3>
+            <a href="#none">SHOP SOCCER</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer id="footer">
+      <div class="ft_inner inner">
+        <!-- ft_l -->
+        <div class="ft_l">
+          <h2 class="ft_logo"><a href="#none"><img src="images/logo_w.png" alt=""></a></h2>
+          <div class="ft_txtWrap">
+            <!-- ft_support -->
+            <div class="ft_support">
+              <h3>Support</h3>
+              <div class="support_txtWrap">
+                <ul class="support_txt1">
+                  <li><a href="#none">자주 물어보는 질문</a></li>
+                  <li><a href="#none">고객센터</a></li>
+                  <li><a href="#none">매장위치</a></li>
+                  <li><a href="#none">계정정보</a></li>
+                  <li><a href="#none">배송관련정보</a></li>
+                </ul>
+                <ul class="support_txt2">
+                  <li><a href="#none">환불정책</a></li>
+                  <li><a href="#none">개인정보처리방침</a></li>
+                  <li><a href="#none">이용약관</a></li>
+                  <li><a href="#none">구매이용약관</a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- ft_about -->
+            <div class="ft_about">
+              <h3>About PUMA</h3>
+              <div class="about_txtWrap">
+                <ul class="about_txt1">
+                  <li><a href="#none">Company</a></li>
+                  <li><a href="#none">Corporate News</a></li>
+                  <li><a href="#none">Press Center</a></li>
+                </ul>
+                <ul class="about_txt2">
+                  <li><a href="#none">Investors</a></li>
+                  <li><a href="#none">Sustainability</a></li>
+                  <li><a href="#none">Careers</a></li>
+                </ul>
+              </div>
+            </div>
+
+          </div><!--e:ft_txtWrap-->
+        </div>
+        <!-- ft_r -->
+        <div class="ft_r">
+          <div class="ft_news">
+            <h3>뉴스레터 구독하기</h3>
+            <div class="email">
+              <input type="email" placeholder="이메일">
+            </div>
+          </div>
+          <div class="ft_sns">
+            <h3>More Inspiration</h3>
+            <div class="sns">
+              <a href="#none"><i class="fab fa-facebook-square"></i></a>
+              <a href="#none"><i class="fab fa-instagram"></i></a>
+              <a href="#none"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+          <div class="ft_trac">
+            <a href="#none"><img src="images/pumatrac-logo.svg" alt=""></a>
+            <a href="#none">TRAIN WITH THE FASTEST</a>
+          </div>
+
+        </div>
+        <p>
+          &copy; PUMA Korea Ltd, 2021. All Rights Reserved.
+        </p>
+      </div>
+    </footer>
+    <div class="goTop">
+      <!-- <img src="images/logo_b.png" alt=""> -->
+      <i class="fas fa-caret-up"></i>
+      <div class="top_txt">Top</div>
+    </div>
+  </div><!--e:container-->
+  
+</body>
+</html>
