@@ -40,11 +40,9 @@ header{
     margin-right: 38px; 
     text-transform: capitalize;
     font-size: 20px; font-weight: normal;
-    /* border: 1px solid rgb(255, 255, 255); */
   }
   .gnb>li>a{
     display: block; line-height: 80px;
-    /* border: 1px solid rgb(255, 255, 255); */
   }
   .gnb>li:last-child{margin-right: 0;}
   /* .gnb>li:hover{color:#ae946d;} */
@@ -73,12 +71,10 @@ header{
   display: flex; justify-content: space-between;
   align-items: flex-start;
   white-space: nowrap;
-  /* border: 1px solid rgb(255, 255, 255); */
 }
 .sub_l{
   align-self: flex-start;
   width: 300px;
-  /* border: 1px solid rgb(255, 255, 255); */
 }
 .sub_r{
   flex: 1;
@@ -93,7 +89,6 @@ header{
   color: #ae946d;
   font-size: 18px; font-weight: bold;
   border-right: 1px solid #ae946d;
-  /* border: 1px solid rgb(255, 255, 255); */
 }
 .sub_r>li:last-child{border: none;}
 .sub_r>li>a{display: block;}
@@ -121,7 +116,6 @@ header{
 }
   .utile>div{
     margin-left: 20px;
-    /* border: 1px solid rgb(255, 255, 255); */
   }  
   .utile>div:nth-child(1){
     position: relative; top: -5px;
@@ -159,12 +153,10 @@ header{
   position: relative; top: 80px; z-index: 1;
   width: 100%; height: auto;
   padding-top: 36.46%;
-  /* border: 3px solid greenyellow; */
 }
 .slides{
   position: absolute; top: 0; left: 0;
   width: 100%; height: 100%;
-  /* border: 3px solid red; */
 }
 .slides a{
   position: absolute; top: 0; left: 0;
@@ -172,7 +164,6 @@ header{
   display: block;
   opacity: 0; visibility: hidden;
   transition: all 1.5s;
-  /* border: 3px solid blue; */
 }
 /* .slides img:nth-child(1){display: none;} */
 .slides>a>img:nth-child(2){display: none;}
@@ -189,7 +180,6 @@ header{
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  /* border: 1px solid #000; */
 }
 #sec1>h2{display: none;}
 #sec1 h2{
@@ -209,7 +199,6 @@ header{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* border: 1px solid rgb(0, 0, 0); */
   box-sizing: border-box;
 }
 #sec1 .imgWrap{border: 20px solid rgb(255, 255, 255);}
@@ -337,7 +326,6 @@ header{
     text-align: center;
     font-size: 40px;
   }
-/* .tab_wrap{} */
 .tap_btn{
   display: flex;
   justify-content: space-between;
@@ -346,7 +334,6 @@ header{
   font-size: 24px; font-weight: 500;
   color: #aaa;
 }
-/* .tabs{} */
 .tabs>a{
   padding: 0 20px;
   border-right: 2.5px solid #aaa;
